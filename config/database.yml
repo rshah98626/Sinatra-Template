@@ -1,0 +1,12 @@
+# declare database configs here for environments
+development:
+  adapter: postgresql
+  database: testapp-development
+
+test:
+  adapter: postgresql
+  database: testapp-test
+
+production:
+  adapter: postgresql
+  database: testapp-production
